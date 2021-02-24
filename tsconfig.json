@@ -24,6 +24,9 @@
     "isolatedModules": true,
     "baseUrl": "./src",
     "paths": {
+      "@domain/*": [
+        "domain/*"
+      ],
       "@config": [
         "shared/config"
       ],
